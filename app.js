@@ -10,7 +10,7 @@ const port = process.env.PORT || 5000;
 
 app.use(express.json());
 app.get("/",(req,res)=>{
-    res.send("hey");
+    res.send("https://apiiiiiiiiiiiiiiiii.herokuapp.com/createProduct for creating a product and https://apiiiiiiiiiiiiiiiii.herokuapp.com/getProduct for get all products");
 });
 
 app.post("/createProduct",createProduct);
