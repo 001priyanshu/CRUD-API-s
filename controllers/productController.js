@@ -48,7 +48,7 @@ exports.productDetails = async(req,res,next) => {
 
 exports.deleteProduct = (async (req, res, next) => {
   console.log("Inside delete");
-  console.log(req.query);
+  // console.log(req.query);
 
   Product.findOne({ _id: req.query.id })
     .exec((err, product) => {
